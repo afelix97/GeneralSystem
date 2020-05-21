@@ -1,0 +1,14 @@
+<Configuracion>
+	<conexionPostsgres>
+		<pg_ip>10.44.172.234</pg_ip>
+		<pg_port>5432</pg_port>
+		<pg_user>sysaforeglobal</pg_user>
+		<pg_pass>a2901ba525795f1fd311642f98c9f160</pg_pass>
+	</conexionPostsgres>
+	<conexionMysql>
+		<mysql_ip>127.0.0.1</mysql_ip>
+		<mysql_port>3306</mysql_port>
+		<mysql_user>root</mysql_user>
+		<mysql_pass/>
+	</conexionMysql>
+</Configuracion>

@@ -1,0 +1,970 @@
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|09:26:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|10:58:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|10:58:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|10:58:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|10:58:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|10:58:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|10:58:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|10:58:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|10:58:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|10:58:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 1
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 1
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[119]:: Sesion = Usuario [id=0, nombre=, apellido=, email=afelix, password=, foto=, id_tipo_usuario=0]
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[14] :: param([afelix],[]); ::
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[40] :: cSql => SELECT id,nombre,apellido,email,password,id_tipo_usuario FROM  usuarios where email LIKE 'afelix%' LIMIT 1;
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[52] :: sqlIMG => SELECT imagen FROM usuario_imagen where idusuario = 29 LIMIT 1;
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[61] :: sqlGetHuella => SELECT huella FROM  usuario_huellas where idusuario = 29 LIMIT 1;
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[107] :: INICIA ::
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[120] :: FIN ::
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: NombrePaginaRouter[121]:: finaliza inicio de sesion
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:18:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:18:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:18:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:18:37|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:18:37|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:18:37|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:20:27|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:20:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:20:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:20:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:20:53|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:20:53|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:20:53|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:20:53|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:20:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:20:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:20:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:20:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:20:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:21:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:21:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:21:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:21:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:21:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:21:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:21:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:21:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:21:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:34:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:34:19|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:36:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:36:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:36:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:36:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:36:35|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:36:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:36:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:36:36|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:36:36|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:37:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:37:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:37:47|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:37:47|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:37:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:37:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:37:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:37:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:37:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:37:51|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:37:51|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:37:52|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:37:52|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:40:06|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:40:06|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:40:06|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:40:07|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:40:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:40:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:40:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:40:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:40:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:40:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:40:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:40:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:40:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:40:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:40:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:40:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:40:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:40:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:40:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:40:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:40:59|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:40:59|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:41:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:41:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:41:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:41:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:41:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:41:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:41:17|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:41:17|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:41:20|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:41:20|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:41:20|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:41:20|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:41:20|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:41:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:41:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:41:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:41:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:42:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:42:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:42:40|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:42:40|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:42:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:42:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:42:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:42:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:42:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:42:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:42:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:42:46|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:42:46|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:43:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:43:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:43:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:43:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:43:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:43:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:43:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:43:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:43:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:43:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:43:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:43:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:43:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:43:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:43:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:43:58|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:43:58|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:44:00|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:44:00|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:44:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:44:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:44:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:44:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:44:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:44:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:44:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:44:20|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:44:20|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:44:20|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:44:20|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:44:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:44:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:44:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:44:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:44:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:44:24|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:44:25|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:44:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:44:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:44:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:44:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:44:58|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:44:58|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:45:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:45:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:45:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:45:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:45:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:45:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:45:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:45:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:45:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:46:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:46:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:46:12|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:46:12|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:46:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:46:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:46:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:46:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:46:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:46:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:46:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:46:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:46:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:47:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:47:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:47:46|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:47:46|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:47:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:47:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:47:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:47:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:47:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:47:50|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:47:50|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:47:50|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:47:50|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:51:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:51:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:51:13|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:51:13|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:51:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:51:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:51:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:51:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:51:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:51:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:51:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:51:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:51:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:53:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:53:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:53:02|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:53:02|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:53:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:53:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:53:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:53:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:53:05|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:53:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:53:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:53:07|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:53:07|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:58:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:58:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:58:11|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:58:11|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:58:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:58:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:58:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:58:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:58:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:58:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:58:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:58:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:58:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|16:59:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|16:59:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|16:59:01|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|16:59:01|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|16:59:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|16:59:03|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|16:59:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|16:59:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|16:59:03|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|16:59:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|16:59:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|16:59:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|16:59:05|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:00:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:00:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:00:21|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:00:21|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:00:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:00:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:00:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:00:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:00:23|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:00:25|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:00:25|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:00:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:00:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:00:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:00:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:00:31|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:00:31|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:00:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:00:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:00:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:00:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:01:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:01:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:01:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:01:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:01:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:01:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:01:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:01:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:01:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:01:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:01:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:01:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:01:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:01:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:01:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:01:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:01:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:01:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:01:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:01:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:01:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:01:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:02:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:02:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:02:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:02:02|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:02:51|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:02:51|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:02:51|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:02:52|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:02:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:02:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:02:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:02:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:02:55|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:02:56|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:02:56|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:02:56|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:02:56|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:04:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:04:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:04:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:04:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:04:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:04:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:04:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:04:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:04:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:04:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:04:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:04:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:04:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:04:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:04:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:04:45|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:04:46|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:04:48|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:04:48|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:04:48|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:04:48|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:04:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:04:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:04:50|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:04:50|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:04:50|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:07:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:07:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:07:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:07:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:07:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:10:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:10:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:10:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:10:30|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:10:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:10:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:10:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:10:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:10:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:10:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:10:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:10:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:10:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:11:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:11:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:11:23|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:11:23|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:11:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:11:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:11:27|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:11:27|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:12:09|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:12:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:12:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:12:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:12:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:12:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:12:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:12:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:12:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:12:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:12:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:12:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:12:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:12:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:12:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:12:21|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:12:22|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:12:24|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:12:24|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:12:24|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:12:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:12:25|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:12:25|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:12:25|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:12:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:12:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:13:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:13:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:13:41|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:13:41|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:13:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:13:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:13:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:13:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:13:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:13:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:13:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:13:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:13:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:13:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:13:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:13:57|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:13:57|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:13:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:13:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:14:00|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:14:00|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:14:00|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:14:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:14:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:14:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:14:01|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:14:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:14:23|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:14:23|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:14:23|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:14:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:14:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:14:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:14:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:14:26|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:14:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:14:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:14:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:14:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:15:38|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:15:38|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:15:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:15:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:15:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:15:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:15:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:15:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:15:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:15:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:15:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:15:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:15:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:16:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:16:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:16:15|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:16:15|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:16:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:16:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:16:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:16:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:16:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:16:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:16:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:16:18|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:16:18|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:17:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:17:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:17:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:17:10|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:17:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:17:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:17:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:17:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:17:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:17:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:17:13|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:17:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:17:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:17:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:17:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:17:47|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:17:47|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:17:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:17:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:17:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:17:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:17:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:17:52|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:17:52|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:17:52|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:17:52|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:19:09|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:19:09|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:19:09|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:19:09|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:19:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:19:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:19:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:21:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:21:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:21:29|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:21:30|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:21:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:21:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:21:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:21:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:21:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:21:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:21:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:21:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:21:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:22:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:22:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:22:08|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:22:08|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:22:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:22:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:22:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:22:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:22:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:22:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:22:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:22:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:22:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:23:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:23:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:23:26|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:23:26|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:23:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:23:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:23:29|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:23:29|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:23:29|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:23:30|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:23:31|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:23:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:23:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:23:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:23:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:23:44|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:23:44|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:23:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:23:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:23:47|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:23:48|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:23:48|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:23:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:23:49|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:23:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:23:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:24:01|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:24:02|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:24:02|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:24:02|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:24:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:24:04|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:24:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:24:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:24:04|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:24:05|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:24:05|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:24:05|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:24:05|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:24:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:24:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:24:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:24:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:24:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:24:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:24:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:24:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:24:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:24:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:24:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:24:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:24:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:25:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:25:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:25:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:25:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:25:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:25:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:25:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:25:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:25:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:25:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:25:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:25:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:25:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:26:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:26:18|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:26:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:26:18|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:26:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:26:21|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:26:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:26:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:26:21|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:26:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:26:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:26:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:26:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:26:50|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:26:50|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:26:50|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:26:50|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:26:53|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:26:53|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:26:53|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:26:53|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:26:53|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:26:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:26:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:26:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:26:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:27:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:27:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:27:11|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:27:11|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:27:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:27:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:27:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:27:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:27:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:27:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:27:15|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:27:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:27:15|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:28:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:28:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:28:07|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:28:07|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:28:09|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:28:09|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:28:09|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:28:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:28:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:28:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:28:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:28:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:28:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:29:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:29:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:29:43|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:29:43|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:29:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:29:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:29:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:29:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:29:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:29:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:29:47|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:29:47|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:29:47|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:30:37|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:30:37|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:30:37|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:30:37|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:30:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:30:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:30:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:30:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:30:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:30:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:30:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:30:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:30:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:31:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:31:27|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:31:27|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:31:28|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:31:30|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:31:30|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:31:30|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:31:30|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:31:31|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:31:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:31:32|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:31:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:31:32|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:32:30|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:32:30|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:32:30|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:32:30|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:32:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:32:33|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:32:33|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:32:34|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:33:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:33:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:33:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:33:54|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:33:57|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:33:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:33:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:33:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:34:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:34:34|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:34:34|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:34:34|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:34:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:34:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:34:36|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:34:36|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:34:36|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:34:37|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:34:38|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:34:38|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:34:38|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:35:05|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:35:05|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:35:05|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:35:05|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:35:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:35:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:35:07|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:35:07|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:35:07|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:35:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:35:08|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:35:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:35:08|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:35:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:35:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:35:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:35:39|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:35:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:35:41|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:35:41|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:35:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:35:42|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:35:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:35:42|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:35:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:35:43|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:36:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:36:43|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:36:44|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:36:44|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:36:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:36:46|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:36:46|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:36:46|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:36:46|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:36:48|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:36:48|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:36:48|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:36:49|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:37:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:37:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:37:12|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:37:13|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:37:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:37:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:37:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:37:14|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:37:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:37:26|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:37:26|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:37:26|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:37:28|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:37:28|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:37:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:37:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:37:28|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:37:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:37:29|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:37:30|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:37:30|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:38:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:38:14|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:38:14|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:38:14|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:38:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:38:16|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:38:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:38:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:38:16|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:38:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:38:17|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:38:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:38:17|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:38:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:38:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:38:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:38:35|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:38:37|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:38:38|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:38:38|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:38:38|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:38:38|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:38:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:38:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:38:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:38:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:38:52|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:38:52|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:38:53|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:38:53|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:38:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:38:54|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:38:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:38:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:38:54|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:38:56|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:38:56|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:38:56|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:38:56|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:39:35|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:39:36|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:39:36|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:39:36|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:39:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:39:39|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:39:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:39:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:39:39|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:39:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:39:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:39:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:39:40|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:41:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:41:07|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:41:08|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:41:08|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:41:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:41:10|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:41:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:41:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:41:10|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:41:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:41:11|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:41:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:41:11|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|17:59:55|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|17:59:55|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|17:59:55|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|17:59:55|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|17:59:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|17:59:58|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|17:59:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|17:59:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|17:59:58|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|17:59:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|17:59:59|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|17:59:59|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|17:59:59|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|18:02:19|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|18:02:19|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|18:02:19|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|18:02:19|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|18:02:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|18:02:22|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|18:02:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|18:02:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|18:02:22|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|18:02:24|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|18:02:24|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|18:02:24|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|18:02:24|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin
+2020-02-06|18:02:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-02-06|18:02:40|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-02-06|18:02:40|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-02-06|18:02:41|-6052|::1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-02-06|18:02:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-02-06|18:02:44|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-02-06|18:02:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-02-06|18:02:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-02-06|18:02:44|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-02-06|18:02:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 2
+2020-02-06|18:02:45|-6052|::1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 2
+2020-02-06|18:02:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[125]:: Inicia
+2020-02-06|18:02:45|-6052|::1|  ::NombrePagina:: :: CGenerales.CGenerales::obtenerUsuarios[162]:: Fin

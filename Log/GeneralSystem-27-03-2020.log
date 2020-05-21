@@ -1,0 +1,38 @@
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 1
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 1
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[119]:: Sesion = Usuario [id=0, nombre=, apellido=, email=afelix, password=, foto=, id_tipo_usuario=0]
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[14] :: param([afelix],[]); ::
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[40] :: cSql => SELECT id,nombre,apellido,email,password,id_tipo_usuario FROM  usuarios where email LIKE 'afelix%' LIMIT 1;
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[52] :: sqlIMG => SELECT imagen FROM usuario_imagen where idusuario = 29 LIMIT 1;
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[61] :: sqlGetHuella => SELECT huella FROM  usuario_huellas where idusuario = 29 LIMIT 1;
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[107] :: INICIA ::
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[120] :: FIN ::
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: NombrePaginaRouter[121]:: finaliza inicio de sesion
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-03-27|12:12:31|-7232|127.0.0.1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-03-27|12:12:32|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-03-27|12:12:32|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-03-27|12:12:32|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-03-27|12:12:32|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-03-27|12:12:32|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 1
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 1
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[119]:: Sesion = Usuario [id=0, nombre=, apellido=, email=afelix, password=, foto=, id_tipo_usuario=0]
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[14] :: param([afelix],[]); ::
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[40] :: cSql => SELECT id,nombre,apellido,email,password,id_tipo_usuario FROM  usuarios where email LIKE 'afelix%' LIMIT 1;
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[52] :: sqlIMG => SELECT imagen FROM usuario_imagen where idusuario = 29 LIMIT 1;
+2020-03-27|12:13:24|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::iniciarSesion[61] :: sqlGetHuella => SELECT huella FROM  usuario_huellas where idusuario = 29 LIMIT 1;
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[107] :: INICIA ::
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::validarHuellas[120] :: FIN ::
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: NombrePaginaRouter[121]:: finaliza inicio de sesion
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 13
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 13
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[767]:: Inicia
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: ::CGenerales.CGenerales::eliminarTempUsuario[788]:: Fin resultado = {"mensaje":"No existe la carpeta => ..\/..\/resources\/temp\/29","resultOper":0}
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[114]:: Opcion = 7
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: NombrePaginaRouter[115]:: Descripcion = 7
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[528]:: Inicia
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[540]:: SELECT id,asunto,descripcion,imagen, cast(fecha AS time) AS hora, cast(fecha AS date) AS fechaRegistro, visto,fecha FROM notificaciones WHERE estado = 1 AND idusuario_recep = 29 ORDER BY fecha DESC
+2020-03-27|12:13:25|-7232|127.0.0.1|  ::NombrePagina:: :: CGenerales.CGenerales::getNotificaciones[570]:: FIN
